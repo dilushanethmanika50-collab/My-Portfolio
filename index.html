@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilusha Archana - Portfolio</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Theme Toggle Button (Side) -->
+    <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">DA</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="floating-shapes">
+            <div class="shape"><i class="fas fa-code"></i></div>
+            <div class="shape"><i class="fas fa-video"></i></div>
+            <div class="shape"><i class="fas fa-server"></i></div>
+        </div>
+        <div class="hero-content container">
+            <h1 class="hero-name">Dilusha Archana</h1>
+            <p class="hero-tagline">Web Developer | Video Editor | Tech Specialist | Live Streamer</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>Hello! I'm Dilusha Archana, a passionate web developer, creative video editor, and tech enthusiast with a love for exploring new technologies and live streaming my creative process. I specialize in creating beautiful, functional websites and crafting compelling visual stories through video production.</p>
+                    <br>
+                    <p>My journey in tech started with computer hardware, evolved into web development, and expanded into video editing, live streaming, and Minecraft server development. I believe in continuous learning and love sharing my knowledge with the community through live streams and tutorials.</p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1K+</div>
+                            <div class="stat-label">Stream Followers</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Dilusha Archana" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Qualifications Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Qualifications</h2>
+            <div class="skills-qualifications-container">
+                <div class="skills-section fade-in">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🎬</div>
+                            <h3 class="skill-name">Video Editor</h3>
+                            <p class="skill-description">Professional video editing with Adobe Premiere Pro, Final Cut Pro, and After Effects</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎥</div>
+                            <h3 class="skill-name">Video Production</h3>
+                            <p class="skill-description">End-to-end video production, scripting, filming, and post-production</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <h3 class="skill-name">Canva Photo Editor</h3>
+                            <p class="skill-description">Graphic design, social media content, and brand identity creation</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎮</div>
+                            <h3 class="skill-name">Minecraft Server Developer</h3>
+                            <p class="skill-description">Plugin development, server configuration, and community management</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🖥️</div>
+                            <h3 class="skill-name">Computer Hardware Technician</h3>
+                            <p class="skill-description">Hardware troubleshooting, assembly, maintenance, and networking</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <h3 class="skill-name">Web Developer</h3>
+                            <p class="skill-description">Full-stack development with HTML, CSS, JavaScript, React, and Node.js</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📡</div>
+                            <h3 class="skill-name">Live Streamer</h3>
+                            <p class="skill-description">Live streaming on multiple platforms, audience engagement, and content creation</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-camera"></i></div>
+                            <h3 class="skill-name">Photography</h3>
+                            <p class="skill-description">Digital photography, lighting techniques, and photo editing</p>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualifications-sidebar fade-in">
+                    <h3><i class="fas fa-award"></i> Qualifications</h3>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="qualification-content">
+                            <h4>Certificate in Computer Hardware & Networking</h4>
+                            <p>Advanced technical certification</p>
+                        </div>
+                    </div>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="qualification-content">
+                            <h4>Web Development Training</h4>
+                            <p>Full-stack development program</p>
+                        </div>
+                    </div>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-video"></i></div>
+                        <div class="qualification-content">
+                            <h4>Video Production Workshops</h4>
+                            <p>Professional video editing & production</p>
+                        </div>
+                    </div>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="qualification-content">
+                            <h4>Minecraft Server Management</h4>
+                            <p>3+ years managing servers</p>
+                        </div>
+                    </div>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="qualification-content">
+                            <h4>Freelance Projects</h4>
+                            <p>30+ completed projects</p>
+                        </div>
+                    </div>
+                    <div class="qualification-item">
+                        <div class="qualification-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="qualification-content">
+                            <h4>Live Streaming Achievement</h4>
+                            <p>1K+ followers across platforms</p>
+                        </div>
+                    </div>
+                    
+                    <button class="btn cv-download-btn" id="cvDownloadBtn">
+                        <i class="fas fa-download"></i> Download CV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Portfolio & Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=200&fit=crop" alt="E-Commerce Platform" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with payment integration and admin dashboard</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=200&fit=crop" alt="Minecraft Server Network" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Minecraft Server Network</h3>
+                        <p>Custom Minecraft server network with 5 game modes and proprietary plugins</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spigot</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1536240478700-b4f4d323c455?w=400&h=200&fit=crop" alt="Tech Tutorial Series" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Tech Tutorial Series</h3>
+                        <p>Educational video series on web development and tech tips with 100K+ views</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Premiere Pro</span>
+                            <span class="tech-tag">After Effects</span>
+                            <span class="tech-tag">OBS Studio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=200&fit=crop" alt="Brand Identity Design" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Brand Identity Design</h3>
+                        <p>Complete brand identity package including logo, social media, and marketing materials</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Canva Pro</span>
+                            <span class="tech-tag">Photoshop</span>
+                            <span class="tech-tag">Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&h=200&fit=crop" alt="Hardware Tutorial Platform" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Hardware Tutorial Platform</h3>
+                        <p>Interactive platform for computer hardware tutorials and troubleshooting guides</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400&h=200&fit=crop" alt="Live Stream Overlay Package" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Live Stream Overlay Package</h3>
+                        <p>Custom animated overlays, alerts, and branding for streamers</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">After Effects</span>
+                            <span class="tech-tag">Streamlabs</span>
+                            <span class="tech-tag">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&h=400&fit=crop" alt="Studio Setup" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Home Studio Setup</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=400&fit=crop" alt="Tech Workspace" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Workspace</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop" alt="Video Editing" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Editing Session</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=400&h=400&fit=crop" alt="Code Workspace" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Development Setup</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=400&fit=crop" alt="Minecraft Server" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Minecraft Server</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1611162616305-c69c0fe8d7a4?w=400&h=400&fit=crop" alt="Live Streaming" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Live Streaming</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1611162616475-c46b0fb2-b3ff-4b8e-84b8-8a9e070d856e?w=400&h=400&fit=crop" alt="Hardware Repair" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Hardware Lab</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=400&fit=crop" alt="Team Meeting" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Client Meeting</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-lightbox>
+                    <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400&h=400&fit=crop" alt="Design Work" class="gallery-image" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Design Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Me</h2>
+            <div class="contact-container">
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div class="contact-info fade-in">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:dilushaarchana00@gmail.com" class="contact-email">dilushaarchana00@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+94 70 522 0051</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Sri Lanka</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/94705220051" target="_blank" class="btn whatsapp-button" style="width: 100%;">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://facebook.com/dilushaarchana" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/dilushaarchana" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com/@dilushaarchana" target="_blank" class="social-icon" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://github.com/dilushaarchana" target="_blank" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/dilushaarchana" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p>&copy; 2026 Dilusha Archana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-label="Image viewer">
+        <span class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></span>
+        <img src="" alt="" class="lightbox-content" id="lightboxImg">
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <button class="floating-btn whatsapp-float" id="whatsappFloat" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </button>
+        <button class="floating-btn" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="stript.js"></script>
+</body>
+</html>
